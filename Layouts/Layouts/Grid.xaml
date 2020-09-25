@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
-        Title="Grid" Height="450" Width="800">
+        Title="Grid" Height="300" Width="320">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="80" />
+        </Grid.ColumnDefinitions>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btnNumber1" Grid.RowSpan="2" Grid.Column="0" Content="Button 1" Margin="2,2,2,0" />
+        <Button x:Name="btnNumber5One" Grid.Row="0" Grid.Column="1" Content="Button 5" Margin="0,2,2,0" />
+        <Button x:Name="btnNumber5OTwo" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Content="Button 5" Margin="0,2,2,0" />
+        <Button x:Name="btnNumber2" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Content="Button 2" Margin="0,2,2,0" />
+        <Button x:Name="btnNumber4" Grid.Row="4" Grid.Column="3" Content="Button 4" Margin="0,2,2,0" />
+        <Button x:Name="btnNumber3One" Grid.Row="2" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="3" Content="Button 3" Margin="2,2,2,0" />
+        <Button x:Name="btnNumber3Two" Grid.Row="2" Grid.Column="3" Content="Button 3" Margin="0,2,2,0" />
+
     </Grid>
 </Window>
