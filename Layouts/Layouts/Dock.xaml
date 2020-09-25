@@ -9,7 +9,7 @@
     <DockPanel>
 
         <Button DockPanel.Dock="Bottom">Bottom 1</Button>
-        <Button DockPanel.Dock="Bottom">Bottom 2</Button>
+        <Button DockPanel.Dock="Bottom">Bottom 2</Button> 
         <Button DockPanel.Dock="Top">Top 1</Button>
         <Button DockPanel.Dock="Right">Right 1</Button>
 
