@@ -8,14 +8,18 @@
         Title="StackPanel" Height="160" Width="300">
     <StackPanel>
 
-
-
-        <TextBlock HorizontalAlignment="Left" Text="Feld 1" Width="110"/>
-        <TextBox x:Name="FeldNumber1" Height="20" Width="50" />
-        <TextBlock  HorizontalAlignment="Left" Text="Feld 2" Width="110"/>
-        <TextBox x:Name="FeldNumber2" Height="20" Width="50" />
-        <TextBlock HorizontalAlignment="Left" Text="Feld 3" Width="110"/>
-        <TextBox x:Name="FeldNumber3" Height="20" Width="50" />
+        <StackPanel Height="30" Orientation="Horizontal">
+            <TextBlock Text="Feld 1" Width="100" HorizontalAlignment="Left"/>
+            <TextBox Width="50" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StackPanel Height="30" Orientation="Horizontal">
+            <TextBlock Text="Feld 2" Width="100" HorizontalAlignment="Left"/>
+            <TextBox Width="50" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StackPanel Height="30" Orientation="Horizontal">
+            <TextBlock Text="Feld 3" Width="100" HorizontalAlignment="Left"/>
+            <TextBox Width="50" HorizontalAlignment="Right"/>
+        </StackPanel>
 
 
     </StackPanel>
