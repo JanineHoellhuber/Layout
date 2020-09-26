@@ -5,11 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
-        Title="StackPanel" Height="300" Width="450">
-   <StackPanel Orientation="Horizontal">
+        Title="StackPanel" Height="160" Width="300">
+    <StackPanel>
 
-    <TextBlock VerticalAlignment="Top" Text="Feld 1"/>
-        <TextBlock Width="200" HorizontalAlignment="Stretch"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Text="Feld 1" Width="110"/>
+        <TextBox x:Name="FeldNumber1" Height="20" Width="50" />
+        <TextBlock  HorizontalAlignment="Left" Text="Feld 2" Width="110"/>
+        <TextBox x:Name="FeldNumber2" Height="20" Width="50" />
+        <TextBlock HorizontalAlignment="Left" Text="Feld 3" Width="110"/>
+        <TextBox x:Name="FeldNumber3" Height="20" Width="50" />
+
 
     </StackPanel>
 </Window>
